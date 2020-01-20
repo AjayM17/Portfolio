@@ -1,0 +1,42 @@
+.header{
+    color: #2e2e2e;
+    text-transform: uppercase;
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;;
+    .name{
+        font-size: 20px;
+   padding: 10px  20px;
+        font-weight: 600;
+    }
+    .link{
+        font-size: 14px;
+   padding: 10px 20px;
+        font-weight: bold;
+    }
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 767px) {
+    .header{
+        .link{
+            border-top: 1px solid #eee;
+        }
+    }
+  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+ }
