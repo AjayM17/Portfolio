@@ -1,3 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import './assets/iconmoon/style.css'
+@import './assets/iconmoon/style.css';
+
+
+// for laptop devices
+@media (min-width: 768px) {
+  .header {
+    padding: 8px 10%;
+  }
+
+  .footer {
+    padding: 24px 10%;
+
+    .contact_link {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .div-container {
+    padding: 0 10%;
+    margin-top: 50px;
+  }
+}
+
+// for mobile devices
+
+@media (max-width: 767px) {
+
+  .header {
+    // padding: 0px 16px;
+
+    .link {
+      border-top: 1px solid rgba(0, 0, 0, 0.125);
+      padding: 4px 16px;
+    }
+
+    .name {
+      padding: 4px 16px;
+
+    }
+  }
+
+  .footer {
+    padding: 16px 16px;
+
+    .link {
+      padding: 8px 0px;
+    }
+  }
+
+  .div-container {
+    padding: 0 16px;
+    margin-top: 80px;
+  }
+
+  .about_me {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill {
+    //  padding: 60px 0;
+  }
+
+  .intro {
+    margin-bottom: 40px;
+  }
+
+  
+.mobile-border{
+  margin-bottom: 30px;
+ border:  1px solid #eee
+}
+}
+
+.active{
+  border: none !important;
+}
+
+.row {
+  margin: 0px !important;
+}
