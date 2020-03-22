@@ -1,12 +1,8 @@
 .info-banner{
-    background-color: #f5f8fa;
-     padding: 16px 12px;
-    border-top: 1px solid  rgba(0,0,0,.125);
-    border-bottom: 1px solid  rgba(0,0,0,.125);
-
+    text-align: center;
     .image{
-        background-image: url('https://scontent.fdel11-1.fna.fbcdn.net/v/t1.0-1/c0.0.240.240a/p240x240/60142811_2260218804062024_3554433651913523200_n.jpg?_nc_cat=111&_nc_ohc=NuQ0QFwa2e4AX9zC9Qy&_nc_ht=scontent.fdel11-1.fna&_nc_tp=1003&oh=ab1fa2dcd2e0f4ab72c889a525ea6653&oe=5EDB6C6B');
-        width: 7rem;
+     background-image: url('../../assets/images/profile_pic.jpg');
+     width: 7rem;
         height: 7rem;
         background-repeat: no-repeat;
         background-size: cover;
@@ -30,72 +26,41 @@
     }
 }
 
-.info{
-    padding: 60px;
+
+
+.about_me{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+   
+    .intro{
+        flex-basis: 50%;
+    }
     .heading{
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
-        margin-bottom: 16px;
+        text-transform: uppercase;
+        padding-bottom: 10px;
     }
-    .about_me{
-     flex-basis: 40%;
-    }
-    .contact_me{
-        .contact_link{
-            justify-content: space-between;
-            display: flex;
-            flex-direction: column;
-            .link{
-                flex: 1;
-                margin: 6px 0px;
-                text-decoration: none;
-                .icon{
-                    color: #111111;
-                    font-size: 1.5rem;
-                }
-                
-                .icon-name{
-                    color: #111111;
-                    font-size: 1.1rem;
-                    padding-left: 10px;
-                    font-family: open sans,sans-serif !important;
-                }
-              
-         
-            }
-            .link:hover{
-                .icon{
-                    color:#007199 ;
-                }
-                .icon-name{
-                    color: #007199;
-                }
-            }
-        }
-       
-    }
+   .sub-heading{
+       font-weight: bold;
+       margin-bottom: 10px;
+   }
+
+   .details{
+       font-size: 18px;
+   }
+   // justify-content: space-around;
+    // text-align: center;
+    // padding: 50px 0px;
+    // .heading{
+    //     font-size: 20px;
+    //     font-weight: bold;
+    // }
+    // .description{
+    //     padding: 40px 40px;
+    // }
 }
 
 
-
-
-
-
-
-// Medium devices (tablets, 768px and up)
-@media (max-width: 767px) {
-    .contact_me{
-        padding: 40px 0px;
-    }
- }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
 

@@ -1,42 +1,34 @@
-.header{
+.header {
     color: #2e2e2e;
+    background-color: #f5f8fa;
     text-transform: uppercase;
-    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;;
-    .name{
-        font-size: 20px;
-   padding: 10px  20px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+    .name {
+        font-size: 1.2rem;
+     //   padding: 10px 20px;
         font-weight: 600;
+        cursor: pointer;
     }
-    .link{
-        font-size: 14px;
-   padding: 10px 20px;
+
+    .link {
+        font-size: 1rem;
+      //  padding: 10px 20px;
         font-weight: bold;
+        cursor: pointer;
     }
 }
 
-
-
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { 
-
-
- }
-
-// Medium devices (tablets, 768px and up)
-@media (max-width: 767px) {
-    .header{
-        .link{
-            border-top: 1px solid #eee;
-        }
-    }
-  }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-
- }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
- }
+// @media (max-width: 767px) {
+//     .header {
+//         height: 92px;
+//         .link {
+//             border-top: 1px solid rgba(0, 0, 0, 0.125)
+//         }
+//     }
+// }
